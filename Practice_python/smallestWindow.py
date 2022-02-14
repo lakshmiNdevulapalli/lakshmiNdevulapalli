@@ -5,7 +5,7 @@
 def window(array):
   left, right = None, None 
   n = len(array)
-  max_seen, min_seen = -float("inf"), float("int")
+  max_seen, min_seen = -float("inf"), float("inf")
 
   for i in range(n):
     max_seen = max(max_seen, array[i])
